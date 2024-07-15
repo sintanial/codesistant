@@ -8,8 +8,7 @@ Codesistant is a CLI tool designed to assist with code generation and completion
 - [Usage](#usage)
     - [Commands](#commands)
 - [Configuration](#configuration)
-- [Development](#development)
-- [License](#license)
+- [Project Purpose](#project-purpose)
 
 ## Installation
 
@@ -71,9 +70,9 @@ throttle: 2000
 dburl: '<optional database connection url>'
 ```
 
-## License
+## Project Purpose
 
-This project is licensed under the ISC License.
+Codesistant is designed to quickly update an OpenAI assistant without the need to manually refresh the prompt each time. The system monitors specified files and directories, as well as changes in the database schema, and updates the assistant's prompt on the fly. This ensures that the assistant always has the most up-to-date information from your project.
 
 ---
 
